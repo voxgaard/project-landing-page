@@ -1,0 +1,127 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    flex: auto;
+    min-height: 5vh;
+    justify-content: space-around;
+    align-items: center;
+    background-color: blueviolet;
+    color: goldenrod;
+}
+
+.torso {
+    display: flex;
+    flex: auto;
+    min-height: 87vh;
+    flex-direction: column;
+    background-color: whitesmoke;
+}
+
+.footer {
+    display: flex;
+    flex: auto;
+    min-height: 8vh;
+    justify-content: center;
+    align-items:center;
+    background-color: blueviolet;
+    color: wheat;
+}
+
+img {
+    width: 500px;
+    height: 300px;
+}
+
+.section-one {
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    color: wheat;
+    gap: 250px;
+}
+
+.section-two {
+    display: flex;
+    flex: auto;
+    background-color: whitesmoke;
+    flex-wrap: wrap;
+}
+
+.section-three {
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    align-content: center;
+    background-color: slategray;
+    color: thistle;
+    padding: 10px 400px 10px 400px;
+}
+
+.section-four {
+    display: flex;
+    flex: auto;
+    justify-content: space-around;
+    align-content: center;
+    background-color: steelblue;
+    width: 70%;
+    margin: 10px 300px 10px 300px;
+}
+
+.LINKS {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.s1i1 {
+    
+    border: green dashed;
+}
+
+.s2i1 {
+    height: 70px;
+    width: 100%;
+    border: green dashed;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.s2i2 {
+    height: 70px;
+    width: 100px;
+    border: green dashed;
+}
+
+.s2-blocks {
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    gap: 80px;
+}
+
+.s3i1 {
+
+}
+
+.s4i1 {
+    color: goldenrod;
+}
+
+.s4i2 {
+    display: flex;
+    justify-self: flex-end;
+    align-items: center;
+}
+
+.s4-bg {
+
+}
