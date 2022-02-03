@@ -38,6 +38,7 @@ img {max-width:100%;}
 button {
     color: white;
     background-color: coral;
+    border-radius: 5px;
 }
 
 .section-one {
@@ -77,6 +78,7 @@ button {
     background-color: steelblue;
     width: 70%;
     margin: 100px 300px 100px 300px;
+    border-radius: 15px;
 }
 
 .LINKS {
