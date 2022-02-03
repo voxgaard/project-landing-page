@@ -18,7 +18,7 @@ html, body {
 .torso {
     display: flex;
     flex: auto;
-    min-height: 87vh;
+    height: 1500px;
     flex-direction: column;
     background-color: whitesmoke;
 }
@@ -33,16 +33,14 @@ html, body {
     color: wheat;
 }
 
-img {
-    width: 500px;
-    height: 300px;
-}
+img {max-width:100%;}
 
 .section-one {
     display: flex;
     flex: auto;
     justify-content: center;
     align-items: center;
+    max-height: 300px;
     background-color: blueviolet;
     color: wheat;
     gap: 250px;
@@ -72,7 +70,7 @@ img {
     align-content: center;
     background-color: steelblue;
     width: 70%;
-    margin: 10px 300px 10px 300px;
+    margin: 100px 300px 100px 300px;
 }
 
 .LINKS {
@@ -83,7 +81,11 @@ img {
 
 .s1i1 {
     
-    border: green dashed;
+}
+
+.s1i2 {
+    height: 300px;
+    width: 450px;
 }
 
 .s2i1 {
@@ -96,8 +98,8 @@ img {
 }
 
 .s2i2 {
-    height: 70px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
     border: green dashed;
 }
 
@@ -109,7 +111,7 @@ img {
 }
 
 .s3i1 {
-
+    max-height: 100px;
 }
 
 .s4i1 {
